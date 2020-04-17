@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="modify">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1acz2XRIANJb6X3Rg87T4tsiLHm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="更新" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="" />
+      <created>1587049463079</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587049463079</updated>
+      <workItem from="1587049465870" duration="21000" />
+      <workItem from="1587113316947" duration="575000" />
+    </task>
+    <task id="LOCAL-00001" summary="modify">
+      <created>1587113867916</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1587113867916</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <MESSAGE value="modify" />
+    <option name="LAST_COMMIT_MESSAGE" value="modify" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1587113892301">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587113892301" />
+    <state x="890" y="555" width="383" height="200" key="Github.ShareDialog" timestamp="1587113392691">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="890" y="555" width="383" height="200" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587113392691" />
+    <state x="846" y="278" key="Github.UntrackedFilesDialog" timestamp="1587113429383">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="846" y="278" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587113429383" />
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1587113650997">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1587113650997" />
+    <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587113709868">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050@0.0.1920.1050" timestamp="1587113709868" />
+    <state x="737" y="418" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1587113725954">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="737" y="418" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587113725954" />
+  </component>
+</project>
