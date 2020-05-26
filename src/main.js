@@ -43,12 +43,6 @@ const siteData = JSON.parse(localStorage.getItem('siteData')) || [
     text: 'juejin.im'
   },
   {
-    href: 'https://www.bootcdn.cn/',
-    favicon: 'https://api.faviconkit.com/bootcdn.cn/144',
-    logo: 'b',
-    text: 'bootcdn.cn'
-  },
-  {
     href: 'https://youtube.com',
     favicon: 'https://api.faviconkit.com/youtube.com/144',
     logo: 'y',

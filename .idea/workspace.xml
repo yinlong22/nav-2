@@ -1,11 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="modify">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
-    </list>
+    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="modify" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +56,7 @@
       <workItem from="1587113316947" duration="819000" />
       <workItem from="1587114174991" duration="43000" />
       <workItem from="1587114942733" duration="22000" />
-      <workItem from="1590460937975" duration="947000" />
+      <workItem from="1590460937975" duration="1147000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1587113867916</created>
@@ -58,11 +72,29 @@
       <option name="project" value="LOCAL" />
       <updated>1587113925477</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modify">
+      <created>1590461891912</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590461891912</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
@@ -82,10 +114,18 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="846" y="278" key="Github.UntrackedFilesDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587113429383" />
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1587113938233">
+    <state x="368" y="123" key="MergeDialog" timestamp="1590461997809">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1587113938233" />
+    <state x="368" y="123" key="MergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590461997809" />
+    <state x="973" y="426" width="552" height="271" key="MultipleFileMergeDialog" timestamp="1590462001351">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="973" y="426" width="552" height="271" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590462001351" />
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590462031152">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590462031152" />
     <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587113709868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
