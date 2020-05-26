@@ -13,16 +13,16 @@ const siteData = JSON.parse(localStorage.getItem('siteData')) || [
     text: 'developer.mozilla.org'
   },
   {
-    href: 'https://store.steampowered.com',
-    favicon: 'https://api.faviconkit.com/store.steampowered.com/144',
+    href: 'https://google.com',
+    favicon: 'https://api.faviconkit.com/store.google.com/144',
     logo: 's',
-    text: 'store.steampowered.com'
+    text: 'google.com'
   },
   {
-    href: 'https://store.ubi.com',
-    favicon: 'https://api.faviconkit.com/store.ubi.com/144',
-    logo: 's',
-    text: 'store.ubi.com'
+    href: 'https://zh.wikipedia.org',
+    favicon: 'https://api.faviconkit.com/wikipedia.org/144',
+    logo: 'w',
+    text: 'wikipedia.org'
   },
   {
     href: 'https://www.facebook.com',
@@ -37,16 +37,16 @@ const siteData = JSON.parse(localStorage.getItem('siteData')) || [
     text: 'twitter.com'
   },
   {
-    href: 'https://www.iconfont.cn',
-    favicon: 'https://api.faviconkit.com/iconfont.cn/144',
+    href: 'https://juejin.im',
+    favicon: 'https://api.faviconkit.com/juejin.im/144',
     logo: 'i',
-    text: 'iconfont.cn'
+    text: 'juejin.im'
   },
   {
-    href: 'https://www.ele.me',
-    favicon: 'https://api.faviconkit.com/ele.me/144',
-    logo: 'e',
-    text: 'ele.me'
+    href: 'https://www.bootcdn.cn/',
+    favicon: 'https://api.faviconkit.com/bootcdn.cn/144',
+    logo: 'b',
+    text: 'bootcdn.cn'
   },
   {
     href: 'https://youtube.com',
