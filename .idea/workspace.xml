@@ -19,14 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="更新 close 事件">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.af46ece4.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.af46ece4.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.af46ece4.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.af46ece4.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.af46ece4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.af46ece4.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-    </list>
+    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="优化页面" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +60,7 @@
       <workItem from="1590462275957" duration="74000" />
       <workItem from="1590659980546" duration="5000" />
       <workItem from="1590667815667" duration="661000" />
-      <workItem from="1590668688443" duration="3573000" />
+      <workItem from="1590668688443" duration="3957000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1587113867916</created>
@@ -104,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590671938257</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="优化页面">
+      <created>1590672487656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1590672487656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -126,7 +126,8 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="modify" />
     <MESSAGE value="更新 close 事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="更新 close 事件" />
+    <MESSAGE value="优化页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="优化页面" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1587113892301">
@@ -149,10 +150,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="973" y="426" width="552" height="271" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590462001351" />
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590671940805">
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590672489659">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590671940805" />
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590672489659" />
     <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587113709868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
