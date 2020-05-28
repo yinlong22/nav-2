@@ -134,7 +134,7 @@ const render = () => {
     //重新渲染
     $.each(siteData, (index, node) => {
         const $li = $(`
-    <li>
+    <li class="wrapper">
       <a href=${node.href} >
         <div class="siteContainer">
           <div class="logo">
@@ -168,7 +168,7 @@ const render = () => {
             .parent()
             .before($li);
         //绑定删除事件
-        $li.on('click', (e) => {
+        $li.on('click','.close', (e) => {
             e.stopPropagation(); // 阻止冒泡
             e.preventDefault(); //阻止默认
             siteData.splice(index, 1);

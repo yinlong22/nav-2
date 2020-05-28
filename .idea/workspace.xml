@@ -20,7 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="解决图片分裂">
+      <change afterPath="$PROJECT_DIR$/dist/Search.49436460.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +76,7 @@
       <workItem from="1590667815667" duration="661000" />
       <workItem from="1590668688443" duration="5157000" />
       <workItem from="1590675386130" duration="532000" />
-      <workItem from="1590675997821" duration="1081000" />
+      <workItem from="1590675997821" duration="2574000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1587113867916</created>
@@ -159,7 +169,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590676676742</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="解决图片分裂">
+      <created>1590677235247</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1590677235247</updated>
+    </task>
+    <task id="LOCAL-00015" summary="解决图片分裂">
+      <created>1590677291274</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1590677291274</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,10 +235,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="973" y="426" width="552" height="271" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590462001351" />
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590677236926">
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590677292471">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590677236926" />
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590677292471" />
     <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587113709868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
