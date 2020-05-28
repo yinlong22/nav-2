@@ -19,18 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="modify">
+    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="更新 close 事件">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.af46ece4.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.af46ece4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.af46ece4.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.af46ece4.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/dist/main.af46ece4.js" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.af46ece4.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/dist/main.af46ece4.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/dist/main.af46ece4.js.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +67,7 @@
       <workItem from="1590462275957" duration="74000" />
       <workItem from="1590659980546" duration="5000" />
       <workItem from="1590667815667" duration="661000" />
-      <workItem from="1590668688443" duration="2953000" />
+      <workItem from="1590668688443" duration="3573000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1587113867916</created>
@@ -102,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590462308731</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="更新 close 事件">
+      <created>1590671938257</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1590671938257</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -123,7 +125,8 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <MESSAGE value="modify" />
-    <option name="LAST_COMMIT_MESSAGE" value="modify" />
+    <MESSAGE value="更新 close 事件" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新 close 事件" />
   </component>
   <component name="WindowStateProjectService">
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog" timestamp="1587113892301">
@@ -146,10 +149,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="973" y="426" width="552" height="271" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590462001351" />
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590462309983">
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590671940805">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590462309983" />
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590671940805" />
     <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587113709868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
