@@ -56,7 +56,7 @@ let siteData = JSON.parse(localStorage.getItem('siteData')) || [
     }
 ];
 
-if (siteData.length <= 0) {
+if (siteData.length <= 0 || siteData.length===null) {
     siteData = [
         {
             href: 'https://github.com',

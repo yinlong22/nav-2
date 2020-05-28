@@ -166,7 +166,7 @@ var siteData = JSON.parse(localStorage.getItem('siteData')) || [{
   text: 'youtube.com'
 }];
 
-if (siteData.length <= 0) {
+if (siteData.length <= 0 || siteData.length === null) {
   siteData = [{
     href: 'https://github.com',
     favicon: 'https://api.faviconkit.com/github.com/144',
