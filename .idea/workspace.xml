@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="优化页面" />
+    <list default="true" id="4538a77f-50b0-48e2-bcb5-66c4aed8306c" name="默认更改列表" comment="优化页面">
+      <change afterPath="$PROJECT_DIR$/dist/Search.49436460.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.1f19ae8e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dist/main.af46ece4.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -42,7 +51,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../canvas-demo" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -62,7 +71,7 @@
       <workItem from="1590462275957" duration="74000" />
       <workItem from="1590659980546" duration="5000" />
       <workItem from="1590667815667" duration="661000" />
-      <workItem from="1590668688443" duration="4974000" />
+      <workItem from="1590668688443" duration="5157000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1587113867916</created>
@@ -127,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590673538074</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="优化页面">
+      <created>1590673678393</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1590673678393</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,6 +174,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="92" y="92" width="1736" height="866" key="DiffContextDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1587113892301" />
+    <state x="853" y="316" key="FileChooserDialogImpl" timestamp="1590673852019">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="853" y="316" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1590673852019" />
     <state x="890" y="555" width="383" height="200" key="Github.ShareDialog" timestamp="1587113392691">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
@@ -174,10 +194,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="973" y="426" width="552" height="271" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590462001351" />
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590673539734">
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590673679515">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590673539734" />
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590673679515" />
     <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587113709868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
