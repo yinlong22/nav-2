@@ -31,12 +31,14 @@
   <component name="ProjectId" id="1acz2XRIANJb6X3Rg87T4tsiLHm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="更新" />
+    <ConfirmationsSetting value="2" id="添加" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -60,7 +62,7 @@
       <workItem from="1590462275957" duration="74000" />
       <workItem from="1590659980546" duration="5000" />
       <workItem from="1590667815667" duration="661000" />
-      <workItem from="1590668688443" duration="3957000" />
+      <workItem from="1590668688443" duration="4298000" />
     </task>
     <task id="LOCAL-00001" summary="modify">
       <created>1587113867916</created>
@@ -104,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590672487656</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="优化页面">
+      <created>1590672748664</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1590672748664</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,6 +133,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="modify" />
     <MESSAGE value="更新 close 事件" />
     <MESSAGE value="优化页面" />
@@ -150,10 +160,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="973" y="426" width="552" height="271" key="MultipleFileMergeDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1590462001351" />
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590672489659">
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2" timestamp="1590672750307">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590672489659" />
+    <state x="465" y="300" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1590672750307" />
     <state x="705" y="434" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1587113709868">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
