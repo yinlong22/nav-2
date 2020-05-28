@@ -130,15 +130,20 @@ var siteData = JSON.parse(localStorage.getItem('siteData')) || [{
   logo: 'd',
   text: 'developer.mozilla.org'
 }, {
-  href: 'https://store.steampowered.com',
-  favicon: 'https://api.faviconkit.com/store.steampowered.com/144',
-  logo: 's',
-  text: 'store.steampowered.com'
+  href: 'https://bilibili.com',
+  favicon: 'https://api.faviconkit.com//bilibili.com/144',
+  logo: 'b',
+  text: 'bilibili.com'
 }, {
-  href: 'https://store.ubi.com',
-  favicon: 'https://api.faviconkit.com/store.ubi.com/144',
+  href: 'https://google.com',
+  favicon: 'https://api.faviconkit.com/store.google.com/144',
   logo: 's',
-  text: 'store.ubi.com'
+  text: 'google.com'
+}, {
+  href: 'https://zh.wikipedia.org',
+  favicon: 'https://api.faviconkit.com/wikipedia.org/144',
+  logo: 'w',
+  text: 'wikipedia.org'
 }, {
   href: 'https://www.facebook.com',
   favicon: 'https://api.faviconkit.com/facebook.com/144',
@@ -150,15 +155,10 @@ var siteData = JSON.parse(localStorage.getItem('siteData')) || [{
   logo: 't',
   text: 'twitter.com'
 }, {
-  href: 'https://www.iconfont.cn',
-  favicon: 'https://api.faviconkit.com/iconfont.cn/144',
+  href: 'https://juejin.im',
+  favicon: 'https://api.faviconkit.com/juejin.im/144',
   logo: 'i',
-  text: 'iconfont.cn'
-}, {
-  href: 'https://www.ele.me',
-  favicon: 'https://api.faviconkit.com/ele.me/144',
-  logo: 'e',
-  text: 'ele.me'
+  text: 'juejin.im'
 }, {
   href: 'https://youtube.com',
   favicon: 'https://api.faviconkit.com/youtube.com/144',
@@ -174,9 +174,6 @@ var init = function init() {
 
   $(document).keydown(keyOpen);
   $('.siteLast').bind('click', addCard);
-  $('#search').focus(function () {
-    $(document).off();
-  });
   $('#search').blur(function () {
     $(document).keydown(keyOpen);
   });
@@ -187,21 +184,25 @@ var render = function render() {
   $('.siteMain li[name!="addCard"]').remove(); //重新渲染
 
   $.each(siteData, function (index, node) {
-    var $li = $("\n    <li>\n      <a href=".concat(node.href, " >\n        <div class=\"siteContainer\" >\n          <div class=\"logo\">\n              <svg class=\"icon\" aria-hidden=\"true\">\n                <use xlink:href=\"#icon-loading\"></use>\n                <animateTransform\n                      attributeName=\"transform\"\n                      attributeType=\"XML\"\n                      type=\"rotate\"\n                      from=\"0\"\n                      to=\"360\"\n                      dur=\"3\"\n                      repeatCount=\"indefinite\" />\n              </svg>\n          </div>\n          <div class=\"text\">").concat(node.text, "</div>\n        </div>\n      </a>\n    </li>\n    ")); //加载图片
+    var $li = $("\n    <li>\n      <a href=".concat(node.href, " >\n        <div class=\"siteContainer\">\n          <div class=\"logo\">\n              <svg class=\"icon\">\n                <use xlink:href=\"#icon-loading\"></use>\n                <animateTransform\n                      attributeName=\"transform\"\n                      attributeType=\"XML\"\n                      type=\"rotate\"\n                      from=\"0\"\n                      to=\"360\"\n                      dur=\"3\"\n                      repeatCount=\"indefinite\" />\n              </svg>\n          </div>\n          <div class=\"close\">\n        <svg class=\"icon\">\n        <use xlink:href=\"#icon-close\"></use>\n        </svg>\n        </div>\n          <div class=\"text\">").concat(node.text, "</div>\n        </div>\n      </a>\n    </li>\n    ")); //加载图片
 
     loadImage($li, node); //渲染到新增Card前面
 
     $('.siteLast').parent().before($li); //绑定删除事件
 
-    $li.contextmenu(function (e) {
+    $li.on('click', function (e) {
       e.stopPropagation(); // 阻止冒泡
 
       e.preventDefault(); //阻止默认
 
       siteData.splice(index, 1);
-      $li.remove(); // render();
+      render();
     });
   });
+};
+
+var close2 = function close2() {
+  console.log('hi');
 };
 
 var addCard = function addCard() {
@@ -294,7 +295,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50195" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "58640" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};
