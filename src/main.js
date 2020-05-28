@@ -1,60 +1,63 @@
 //获取站点数据对象
-const siteData = JSON.parse(localStorage.getItem('siteData')) || [
-    {
-        href: 'https://github.com',
-        favicon: 'https://api.faviconkit.com/github.com/144',
-        logo: 'g',
-        text: 'github.com'
-    },
-    {
-        href: 'https://developer.mozilla.org',
-        favicon: 'https://api.faviconkit.com/developer.mozilla.org/144',
-        logo: 'd',
-        text: 'developer.mozilla.org'
-    },
-    {
-        href: 'https://bilibili.com',
-        favicon: 'https://api.faviconkit.com//bilibili.com/144',
-        logo: 'b',
-        text: 'bilibili.com'
-    },
-    {
-        href: 'https://google.com',
-        favicon: 'https://api.faviconkit.com/store.google.com/144',
-        logo: 's',
-        text: 'google.com'
-    },
-    {
-        href: 'https://zh.wikipedia.org',
-        favicon: 'https://api.faviconkit.com/wikipedia.org/144',
-        logo: 'w',
-        text: 'wikipedia.org'
-    },
-    {
-        href: 'https://www.facebook.com',
-        favicon: 'https://api.faviconkit.com/facebook.com/144',
-        logo: 'f',
-        text: 'facebook.com'
-    },
-    {
-        href: 'https://twitter.com',
-        favicon: 'https://api.faviconkit.com/twitter.com/144',
-        logo: 't',
-        text: 'twitter.com'
-    },
-    {
-        href: 'https://juejin.im',
-        favicon: 'https://api.faviconkit.com/juejin.im/144',
-        logo: 'i',
-        text: 'juejin.im'
-    },
-    {
-        href: 'https://youtube.com',
-        favicon: 'https://api.faviconkit.com/youtube.com/144',
-        logo: 'y',
-        text: 'youtube.com'
-    }
-];
+let siteData = JSON.parse(localStorage.getItem('siteData'))
+if (siteData.length <= 0) {
+    siteData = [
+        {
+            href: 'https://github.com',
+            favicon: 'https://api.faviconkit.com/github.com/144',
+            logo: 'g',
+            text: 'github.com'
+        },
+        {
+            href: 'https://developer.mozilla.org',
+            favicon: 'https://api.faviconkit.com/developer.mozilla.org/144',
+            logo: 'd',
+            text: 'developer.mozilla.org'
+        },
+        {
+            href: 'https://bilibili.com',
+            favicon: 'https://api.faviconkit.com//bilibili.com/144',
+            logo: 'b',
+            text: 'bilibili.com'
+        },
+        {
+            href: 'https://google.com',
+            favicon: 'https://api.faviconkit.com/store.google.com/144',
+            logo: 's',
+            text: 'google.com'
+        },
+        {
+            href: 'https://zh.wikipedia.org',
+            favicon: 'https://api.faviconkit.com/wikipedia.org/144',
+            logo: 'w',
+            text: 'wikipedia.org'
+        },
+        {
+            href: 'https://www.facebook.com',
+            favicon: 'https://api.faviconkit.com/facebook.com/144',
+            logo: 'f',
+            text: 'facebook.com'
+        },
+        {
+            href: 'https://twitter.com',
+            favicon: 'https://api.faviconkit.com/twitter.com/144',
+            logo: 't',
+            text: 'twitter.com'
+        },
+        {
+            href: 'https://juejin.im',
+            favicon: 'https://api.faviconkit.com/juejin.im/144',
+            logo: 'i',
+            text: 'juejin.im'
+        },
+        {
+            href: 'https://youtube.com',
+            favicon: 'https://api.faviconkit.com/youtube.com/144',
+            logo: 'y',
+            text: 'youtube.com'
+        }
+    ];
+}
 
 const init = () => {
     //请求背景图
@@ -109,7 +112,7 @@ const render = () => {
             .parent()
             .before($li);
         //绑定删除事件
-        $li.on('click',(e)=> {
+        $li.on('click', (e) => {
             e.stopPropagation(); // 阻止冒泡
             e.preventDefault(); //阻止默认
             siteData.splice(index, 1);
